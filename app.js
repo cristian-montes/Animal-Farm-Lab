@@ -1,9 +1,24 @@
-// import functions
 
-// reference needed DOM elements
+// CAT
+const catSound = document.getElementById('cat-sound');
+const cat = document.getElementById('cat');
+ 
+cat.addEventListener('click', () => {
+    catSound.play();
+});
 
+// DOG
+const dogSound = document.getElementById('dog-sound');
+const dog = document.getElementById('dog');
+ 
+dog.addEventListener('click', () => {
+    dogSound.play();
+});
 
-// set event listeners 
-  // get user input(s)
-  // do any needed work with the value(s)
-  // update DOM to reflect new value(s)
+// HORSE
+const horseSound = document.getElementById('horse-sound');
+const horse = document.getElementById('horse');
+ 
+horse.addEventListener('click', () => {
+    horseSound.play();
+});
