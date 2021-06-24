@@ -9,6 +9,8 @@ body {
 main {
     padding: 30px;
     background-image: url("https://images-na.ssl-images-amazon.com/images/I/61RlMdqAABL._AC_SL1100_.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
 
 }
 
@@ -17,8 +19,8 @@ header {
     height: 110px;
     padding: 0 30px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+
 }
 
 header img {
@@ -46,22 +48,29 @@ footer {
     margin-left: 30px;
     margin-right: 30px;
     border-radius: 25%;
+    cursor:pointer;
 }
+#cat:hover {
+    width: 90%;
+    }
 
 /* DOG*/
 #dog {
     width: 80%;
     background-color: rgba(255, 255, 255, 0.42);
     box-shadow: 0 4px 8px 0 rgba(116, 19, 19, 0.2), 0 6px 20px 0 rgba(205, 52, 52, 0.19);
-    border-radius: 8%;
-
+    border-radius: 82%;
+    cursor:pointer;
 }
 
-.perro{
+#dog:hover {
+width: 90%;
+}
+
+.perro {
     text-align: center;
     font-size: 60px ;
-    padding: 10px 20px;
-    
+    padding: 10px 20px;    
   }
 
 /*HORSE*/
@@ -71,10 +80,14 @@ footer {
     margin-right: 30px;
     margin-right: 30px;
     border-radius: 25%;
+    cursor:pointer;
 }
+#horse:hover {
+    width: 90%;
+    }
 
 .spansy{
     font-size: 40px;
     display: flex;
-    align-items: center
+    justify-content: center;
 }
